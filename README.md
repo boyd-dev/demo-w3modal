@@ -113,14 +113,6 @@ wagmi의 `createClient`로 생성된 클라이언트는 다시 Web3Modal의 `Eth
 ```javascript
 const ethereumClient = new EthereumClient(wagmiClient, chains);
 ```
-예를 들어 지갑 연결을 해제하는 것은 다음과 같습니다.
-
-```javascript
-const handleDisconnect = async () => {
-    await ethereumClient.disconnect();
-    setAddress("");
-}
-```
 
 ### wagmi React Hook
 Web3Modal은 wagmi와 결합되어 사용되므로 wagmi react 가 제공하는 다양한 [Hook](https://wagmi.sh/react/getting-started)을 사용할 수 있습니다.

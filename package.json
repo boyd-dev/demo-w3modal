@@ -14,7 +14,7 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-loader-spinner": "^5.3.4",
-    "react-router-dom": "^6.8.1",
+    "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "wagmi": "^0.12.6",
     "web-vitals": "^2.1.4"
