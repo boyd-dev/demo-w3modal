@@ -41,7 +41,7 @@ const { provider, webSocketProvider, chains } = configureChains(
 ```
 `configureChains`에서는 연결할 체인과 체인에 트랜잭션을 보낼 때 사용할 "provider"를 설정합니다. 기본적으로는 
 Web3Modal이 제공하는 provider `w3mProvider`를 사용할 수 있지만 여기서는 웹소켓을 쓰기 위해 알케미를 provider로 설정하기로 합니다.
-다수의 provider를 설정할 수 있는데 문서에 의하면 다중 provider를 설정하면, 문제 발생시 fallback이 된다고 합니다.
+다수의 provider를 설정할 수 있는데 문서에 의하면 다중 provider를 설정하면, 장애 발생시 fallback이 된다고 합니다.
 
 ```javascript
 const { provider, webSocketProvider, chains } = configureChains(
