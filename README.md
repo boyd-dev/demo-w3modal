@@ -1,5 +1,7 @@
 ## WalletConnect V2
 
+>이 예제는 **OBSOLETE**: wagmi 1.x부터 ethers 대신 viem을 사용하고 Web3Modal 버전이 업데이트
+
 지갑은 이더리움에 전송하는 트랜잭션에 전자서명을 하는 기능을 제공해주기 때문에 "Web3" 애플리케이션에서는
 필수적인 요소입니다. dapp을 개발하면서 지갑의 기능까지 구현하는 것은 번거로운 일이고, 해당 애플리케이션만 쓸 수 있는 지갑을
 별도로 만드는 것도 소모적인 일이 될 수 있습니다.
@@ -12,7 +14,7 @@ dapp이 다수의 지갑을 지원하도록 해주는 라이브러리입니다. 
 여러 지갑을 쉽게 dapp에 적용할 수 있게 해주는 패키지입니다.
 
 WalletConnect는 2023년 6월 이후에 현재 사용되는 V1의 서비스를 종료할 [계획](https://medium.com/walletconnect/weve-reset-the-clock-on-the-walletconnect-v1-0-shutdown-now-scheduled-for-june-28-2023-ead2d953b595)으로 있으며, V2의 개발이 진행 중에 있습니다. 
-이미 V2를 적용한 지갑들이 있는데, 지원되는 지갑들은 다음 [사이트](https://explorer.walletconnect.com/)에서 확인 가능합니다(메타마스크 모바일은 아직 지원하지 않음).
+이미 V2를 적용한 지갑들이 있는데, 지원되는 지갑들은 다음 [사이트](https://explorer.walletconnect.com/)에서 확인 가능합니다.
 
 WalletConnect V2는 꼭 이더리움만 지원하는 것은 아니고 "chain agnostic"으로 다양한 블록체인에 적용될 수 있는 
 프로토콜로 설계되었습니다.
